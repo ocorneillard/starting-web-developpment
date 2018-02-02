@@ -1,0 +1,123 @@
+
+/* __________________________________________________ */
+/*           #BASE                                   */
+/* _________________________________________________ */
+
+
+
+body {
+  background-color : #ebebeb;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color : #7d7d7d;
+  margin : auto;
+  width: 40%;
+  padding : 50px;
+  line-height : 200%;
+}
+
+h1 {
+  color : #dd5555;
+  font-weight: 700;
+}
+
+p {
+  margin : 2vh;
+  text-align : justify;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin : 6vh;
+}
+
+td {
+  padding : 2vh;
+}
+ /* __________________________________________________ */
+/*           #LAYOUT                                  */
+/* _________________________________________________ */
+
+.header {
+  background-color : white;
+  border-radius : 10px;
+  margin : 5vh;
+  padding-bottom : 3vh ;
+  box-shadow: 0px 4px 2px 0px rgba(102,102,102,0.29);
+  -webkit-box-shadow: 0px 4px 2px 0px rgba(102,102,102,0.29);
+  -moz-box-shadow: 0px 4px 2px 0px rgba(102,102,102,0.29);
+}
+
+.socialmedia {
+  background-color : white;
+  border-radius : 10px;
+  margin : 5vh;
+  padding : 5px;
+  box-shadow: 0px 4px 2px 0px rgba(102,102,102,0.29);
+  -webkit-box-shadow: 0px 4px 2px 0px rgba(102,102,102,0.29);
+  -moz-box-shadow: 0px 4px 2px 0px rgba(102,102,102,0.29);
+}
+
+.movie {
+  background-color : white;
+  border-radius : 10px;
+  margin : 5vh;
+  padding : 5px;
+  box-shadow: 0px 4px 2px 0px rgba(102,102,102,0.29);
+  -webkit-box-shadow: 0px 4px 2px 0px rgba(102,102,102,0.29);
+  -moz-box-shadow: 0px 4px 2px 0px rgba(102,102,102,0.29);
+}
+
+/* __________________________________________________ */
+/*           #MODULE                                 */
+/* _________________________________________________ */
+
+.header-img {
+  margin-top : 4vh;
+  border-radius : 180px;
+  border : 5px solid #ebebeb;
+
+  transform: scale(0.8);
+}
+
+.header--btn {
+  padding : 10px;
+  border-radius : 5px;
+
+  background-color : #dd5555;
+  color : white;
+
+  text-decoration: none;
+  font-weight : bolder;
+}
+
+.socialmedia--display {
+    display: inline-flex;
+}
+
+.socialmedia--btn {
+  color : #a6a6a6;
+
+
+  text-decoration: none;
+  font-weight : bolder;
+}
+
+.fa-twitter, .fa-facebook-f, .fa-linkedin-in {
+  transform : scale(2);
+}
+
+.movie-title {
+  padding : 2vh;
+}
+
+.movie-img {
+  padding-top : 4vh;
+}
+/* __________________________________________________ */
+/*           #STATE                                   */
+/* _________________________________________________ */
